@@ -1,13 +1,3 @@
-module.exports = {
-  stories: ['../src/components/**/*.stories.js'],
-  addons: [
-    '@storybook/addon-links',
-    '@storybook/addon-essentials',
-    '@storybook/preset-create-react-app',
-  ],
-};
-
-
 // was this:
 // module.exports = {
 //   "stories": [
@@ -20,3 +10,12 @@ module.exports = {
 //     "@storybook/preset-create-react-app"
 //   ]
 // }
+
+module.exports = {
+  stories: ['../src/components/**/*.stories.js'],
+  addons: [
+    '@storybook/addon-links',
+    '@storybook/addon-essentials',
+    '@storybook/preset-create-react-app',
+  ],
+};
